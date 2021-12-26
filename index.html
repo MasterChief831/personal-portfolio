@@ -8,14 +8,107 @@
   <title>Portfolio</title>
 </head>
 <body>
-<div class="navbar">
-  <ul class="navbar__list">
-    <li class="navbar__list-link-active"><a href="#">Home</a></li>
-    <li class="navbar__list-link"><a href="#">Project</a></li>
-    <li class="navbar__list-link"><a href="#">About</a></li>
-    <li class="navbar__list-link"><a href="#">Contact</a></li>
-  </ul>
-</div>
+  <nav class="navbar">
+    <ul class="link-group">
+        <li class="link active"><a href="#">home</a></li>
+        <li class="link"><a href="#">projects</a></li>
+        <li class="link"><a href="#">about</a></li>
+        <li class="link"><a href="#">contact</a></li>
+    </ul>
+</nav>
+<!--Home section-->
+<section class="home-section active">
+  <h1 class="hero-heading">hello, i am <br> Aryan</h1>
+  <img src="./assets/home.png" class="home-img" alt="">
+</section>
+<!--Project section-->
+  <section class="project-section">
+    <h1 class="project-heading">some of my projects</h1>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="./assets/project-1.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">project 01</h1>
+                <p class="project-info">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github">github repo</button>
+                    <button class="project-btn live">see live</button>
+                </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./assets/project-2.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">project 01</h1>
+                <p class="project-info">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github">github repo</button>
+                    <button class="project-btn live">see live</button>
+                </div>
+            </div>
+          </div>
+
+
+
+        </div>
+         </section>
+<!--about-section-->
+<section  class="about-section">
+  <div class="about-content">
+    <div class="about-img">
+      <img src="./assets/home.png" alt="">
+    </div>
+    <div class="about-para">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita fugit odit vero nihil explicabo. Odit facilis adipisci officia beatae nemo accusantium pariatur porro, impedit animi. Excepturi, minus? Perferendis repellat quasi explicabo iste eligendi reiciendis illum, maiores odit impedit natus tempore laudantium obcaecati recusandae sapiente cupiditate adipisci suscipit temporibus et omnis, numquam nemo. Eaque cum nihil quas, consequatur ea, ut odio fuga doloribus rerum ullam sit impedit nisi alias, modi dolores harum explicabo ratione error accusamus in animi et. In hic dolore nemo dolorem deleniti tempore odit? Facere quod dolor accusamus excepturi laborum, voluptates laudantium fugit, magni incidunt debitis, reiciendis officia!</p>
+      <div class="resume-button">
+        <button class="download">Download Resume</button>
+        
+    </div>
+    </div>
+  </div>
+  <div class="skill-section">
+    <h1 class="heading">skills</h1>
+    <div class="skills-container">
+        <div class="skill-card">
+            <img src="./assets/html.png" class="skill-img" alt="">
+            <div class="skill-level">98%</div>
+            <h1 class="skill-name">HTML</h1>
+            
+        </div>
+        <div class="skill-card">
+          <img src="./assets/css.png" class="skill-img" alt="">
+          <div class="skill-level">75%</div>
+          <h1 class="skill-name">CSS</h1>
+          
+      </div>
+      <div class="skill-card">
+        <img src="./assets/js.png" class="skill-img" alt="">
+        <div class="skill-level">30%</div>
+        <h1 class="skill-name">Javascript</h1>
+        
+    </div>
+        
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <script src="app.js"></script>
 </body>
 </html>
