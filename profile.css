@@ -93,6 +93,11 @@ body{
   position: fixed;
 }
 /*project section*/
+.linkmaster{
+  text-decoration: none;
+  overflow: hidden;
+  color: white;
+}
 .project-section{
   width: 100%;
   min-height: 100vh;
@@ -298,6 +303,11 @@ margin-top: 3rem;
   background: #ffed4f28;
   border-color: #ffed4f;
   color: #ffed4f;
+}
+.skill-card:nth-child(4) .skill-level{
+  background: #52ff4f28;
+  border-color: #52ff4f;
+  color: #52ff4f;
 }
 
 .contact-section{
