@@ -299,3 +299,9 @@ margin-top: 3rem;
   border-color: #ffed4f;
   color: #ffed4f;
 }
+
+.contact-section{
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+}
